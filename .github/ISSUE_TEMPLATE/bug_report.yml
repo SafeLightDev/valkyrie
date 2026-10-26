@@ -1,0 +1,42 @@
+name: Bug report
+description: Something in Valkyrie doesn't work as it should
+labels: ["bug"]
+body:
+  - type: input
+    id: build
+    attributes:
+      label: Valkyrie build
+      description: The number after Build under Current in Settings, then Updates, for example 202.
+      placeholder: "202"
+    validations:
+      required: true
+  - type: dropdown
+    id: theme
+    attributes:
+      label: Theme
+      description: Settings, then Appearance shows which one you use.
+      options:
+        - Series X
+        - NXE
+        - Blades
+        - OG Xbox
+        - Darkroom
+        - Bifrost
+        - Den
+  - type: input
+    id: console
+    attributes:
+      label: Console
+      description: The console and its hard drive, for example Trinity RGH3 with a 500 GB drive. Say whether Valkyrie starts first or you hold Start to open it.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what Valkyrie did instead.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots or log
+      description: Drag screenshots here. The dashboard's log is the file valkyrie.log in Apps\Valkyrie on the console's hard drive.
