@@ -5,7 +5,7 @@ A free dashboard for RGH and JTAG Xbox 360 consoles, made by SafeLight.Dev. Open
 ## Get it
 
 - You need an RGH or JTAG Xbox 360 on your home network with its cable plugged in, and a Mac (Apple silicon, macOS 14 or later) or a 64-bit Windows 10 or 11 PC.
-- Install it with [Valhalla](https://safelight.dev/download/valhalla): open Valkyrie, choose Install and pick your console.
+- Install it with [Valhalla](https://github.com/SafeLightDev/valhalla/releases/latest): open Valkyrie, choose Install and pick your console.
 - Valhalla checks every file against [a signed list](https://downloads.safelight.dev/valkyrie/fleet/stable.json) and saves the console's start-up settings first, so an install can be undone.
 - No xbdm on your console? Valhalla makes a starter USB stick.
 - Start the console in Valkyrie, or keep your own dashboard and hold Start at power-on to open Valkyrie.
