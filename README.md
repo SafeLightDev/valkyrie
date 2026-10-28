@@ -46,6 +46,7 @@ No computer app needed. You need an RGH or JTAG Xbox 360 with DashLaunch and a h
 
 ## Help
 
+- Answers to common questions, setup steps and fixes: [safelight.dev/x360help](https://safelight.dev/x360help#valkyrie).
 - [Report a bug](../../issues/new/choose) or talk to us on [Discord](https://discord.gg/7SH9zg6DuX).
 - Every build's notes are on the [Releases](../../releases) page.
 - Valkyrie works with your own consoles and your own games. It does not modify a console for you and comes with no games.
